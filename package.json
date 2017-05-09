@@ -1,0 +1,23 @@
+{
+  "name": "andela_bootcamp_day_2",
+  "version": "1.0.0",
+  "description": "A simple command line application that consumes a Public API using a HTTP client library.",
+  "main": "fetch_traffic_dataJSON.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_2.git"
+  },
+  "keywords": [
+    "http",
+    "api"
+  ],
+  "author": "Usman Babakolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmansbk/Andela_Bootcamp_day_2/issues"
+  },
+  "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_2#readme"
+}
