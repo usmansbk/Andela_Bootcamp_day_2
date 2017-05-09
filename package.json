@@ -2,7 +2,7 @@
   "name": "andela_bootcamp_day_2",
   "version": "1.0.0",
   "description": "A simple command line application that consumes a Public API using a HTTP client library.",
-  "main": "fetch_traffic_dataJSON.js",
+  "main": "get_traffic.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/usmansbk/Andela_Bootcamp_day_2/issues"
   },
-  "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_2#readme"
+  "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_2#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
