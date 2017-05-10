@@ -11,9 +11,9 @@ Introduction
 
  . Node.Js - A JavaScript runtime to run javascript code outside a browser effectively.
  . request - A Node.Js module to fetch data from a web API
+ . commander - A Node.js module for creating command-line interfaces.
  . npm  - Node Package Manager for open source libraries
- . jasmine - JavaScript unit testing framework.
- 
+
  How to Use
  To use the functionalities
  . cd into the project app director and run
