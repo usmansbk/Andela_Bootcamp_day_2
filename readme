@@ -15,9 +15,6 @@ Introduction
  . jasmine - JavaScript unit testing framework.
  
  How to Use
- To run test
-  . cd into the project root directory and
-     run npm test
  To use the functionalities
  . cd into the project root director and run
-   node check_traffic.js [-option]
+   node traffic.js [-option]
