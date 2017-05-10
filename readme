@@ -16,5 +16,5 @@ Introduction
  
  How to Use
  To use the functionalities
- . cd into the project root director and run
+ . cd into the project app director and run
    node traffic.js [-option]
