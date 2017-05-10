@@ -4,8 +4,7 @@ Introduction
 
 1. check_traffic is a Node.js command line program that checks the current traffic on a road in lagos city.
 2. it has the following features;
- . --list [-city] [-road] Lists the names of tracked cities. Using this command, the user can see all the available supported cities.
- . --city [city] Displays the traffic status in the current city.
+ . --list Displays all the traffic new being tracked.
  . --road [road] Displays the traffic status of a road.
 
  Dependencies
