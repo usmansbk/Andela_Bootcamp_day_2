@@ -1,7 +1,14 @@
 var request = require("request");
 var program = require('commander');
 var url = "https://www.tsaboin.com/api/statuses/public_timeline.json"
-var from;
+
+function printData(body, range) {
+	for (var i = 0; i < range; i++) {
+		console.log("time: " + body[i]['created_at']);
+		console.log("info: " + body[i]['text']);
+		console.log("");
+	}
+}
 
 function myreq(op) {
 	request({
@@ -12,20 +19,11 @@ function myreq(op) {
 
 			switch (op) {
 				case 'l': {
-					for (var i = 0; i < body.length; i++) {
-						//	console.log(body[i]);
-						console.log("time: " + body[i]['created_at']);
-						console.log("info: " + body[i]['text']);
-						console.log("");
-					}
+					printData(body, body.length);
 					break;
 				}
 				case 'h': {
-					for (var i = 0; i < 5; i++) {
-							console.log('time: ' + body[i]['created_at']);
-							console.log('info: ' + body[i]['text']);
-							console.log("");
-					}
+					printData(body, 10);
 					break;
 				}
 			}
@@ -39,13 +37,12 @@ function listRoads(val) {
 	myreq('l');
 }
 
-function getRoadData(val) {
+function getHeadData(val) {
 	console.log("Fetching " + val + " data");
-	from = val;
 	myreq('h');
 }
-program
-  .version('0.0.1')
-  .option('-l, --list', 'List the names and news of all tracked roads in lagos', listRoads)
-  .option('-r, --road [value]', 'The road name', getRoadData)
-  .parse(process.argv);
+
+program.version('0.0.1')
+.option('-l, --list', 'List the names and news of all tracked roads in lagos', listRoads)
+.option('-h, --head', 'List the top news', getHeadData)
+.parse(process.argv);
