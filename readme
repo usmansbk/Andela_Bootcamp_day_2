@@ -1,8 +1,8 @@
-Road_traffic is a Node.js program that checks for the traffic situation in lagos roads by fetching traffic data from tsobion.com.
+Road-Traffic is a Node.js program that checks for the traffic situation in lagos roads by fetching traffic data from tsobion.com.
 
 Introduction
 
-1. check_traffic is a Node.js command line program that checks the current traffic on a road in lagos city.
+1. traffic is a Node.js command line program that checks the current traffic on a road in lagos city.
 2. it has the following features;
  . --list Displays all the traffic news being tracked.
  . --head Displays the top 10 news on traffic.
