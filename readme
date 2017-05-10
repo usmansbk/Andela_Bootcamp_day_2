@@ -1,0 +1,24 @@
+Road_traffic is a Node.js program that checks for the traffic situation in lagos roads by fetching traffic data from tsobion.com.
+
+Introduction
+
+1. check_traffic is a Node.js command line program that checks the current traffic on a road in lagos city.
+2. it has the following features;
+ . --list [-city] [-road] Lists the names of tracked cities. Using this command, the user can see all the available supported cities.
+ . --city [city] Displays the traffic status in the current city.
+ . --road [road] Displays the traffic status of a road.
+
+ Dependencies
+
+ . Node.Js - A JavaScript runtime to run javascript code outside a browser effectively.
+ . request - A Node.Js module to fetch data from a web API
+ . npm  - Node Package Manager for open source libraries
+ . jasmine - JavaScript unit testing framework.
+ 
+ How to Use
+ To run test
+  . cd into the project root directory and
+     run npm test
+ To use the functionalities
+ . cd into the project root director and run
+   node check_traffic.js [-option]
