@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_2.git"
   },
-  "keywords": [
+  "keywor^ds": [
     "http",
     "api"
   ],
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_2#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "request": "^2.81.0"
   }
 }
