@@ -25,6 +25,9 @@ function myreq(op) {
 			    printData(body, 10);
 			    break;
 			}
+		} else {
+			console.log("Oops! there seems to be a hold up!");
+			console.log("I can't check your network traffic");
 		}
 	}
     });
